@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="android:textColor">@color/base_color</item>
+    </style>
+
+    <style name="MyEditTextStyle">
+        <item name="android:background">@null</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/default_text_color</item>
+        <item name="android:textColorHint">@color/editext_text_color</item>
+    </style>
+
+    <!--下面确定按钮样式-->
+    <style name="btn_confirm">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_marginLeft">@dimen/margin_border</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginRight">@dimen/margin_border</item>
+        <item name="android:background">@drawable/shape_confirm</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <!--输入框的整体布局-->
+    <style name="input_ll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/ll_bottom_line_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">17dp</item>
+        <item name="android:paddingTop">11dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">38dp</item>
+    </style>
+    <!--输入框的标题-->
+    <style name="input_title">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/base_color</item>
+        <item name="android:textSize">@dimen/default_text_size</item>
+    </style>
+
+    <!--输入框的内容-->
+    <style name="input_content">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/base_color</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:textSize">@dimen/default_text_size</item>
+    </style>
+    <!--策划头像-->
+    <style name="OrderTabLayoutTextStyle">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/default_text_color</item>
+    </style>
+
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="margin_border">16dp</dimen>
+    <dimen name="radius_angle">50dp</dimen>
+    <dimen name="navi_height">50dp</dimen>
+    <dimen name="default_text_size">16dp</dimen>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.lgy.drive.view.NaviTitleView
+        android:id="@+id/navi_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:center_title="忘记密码"></com.lgy.drive.view.NaviTitleView>
+
+    <LinearLayout style="@style/input_ll">
+
+        <TextView
+            style="@style/input_title"
+            android:text="原密码" />
+
+        <EditText
+            android:id="@+id/ev_old_pwd"
+            style="@style/input_content"
+            android:hint="请输入你原密码" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/input_ll">
+
+        <TextView
+            style="@style/input_title"
+            android:text="新密码" />
+
+        <EditText
+            android:id="@+id/ev_new_pwd"
+            style="@style/input_content"
+            android:hint="请输入你的新密码" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_confirm"
+        style="@style/btn_confirm" />
+</LinearLayout>

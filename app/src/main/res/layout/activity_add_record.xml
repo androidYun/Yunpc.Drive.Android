@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.lgy.drive.view.NaviTitleView
+        android:id="@+id/navi_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.lgy.drive.view.NaviTitleView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin_border"
+        android:paddingRight="@dimen/margin_border">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="选择起点" />
+
+        <TextView
+            android:id="@+id/tv_start_place"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="选择终点" />
+
+        <TextView
+            android:id="@+id/tv_end_place"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"></TextView>
+    </LinearLayout>
+
+    <LinearLayout style="@style/input_ll">
+
+        <TextView
+            style="@style/input_title"
+            android:text="途径路线" />
+
+        <EditText
+            android:id="@+id/ev_pass_place"
+            style="@style/input_content"
+            android:hint="请输入途径路线" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/input_ll">
+
+        <TextView
+            style="@style/input_title"
+            android:text="拼车内容" />
+
+        <EditText
+            android:id="@+id/ev_content"
+            style="@style/input_content"
+            android:hint="请输入拼车内容" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/input_ll">
+
+        <TextView
+            style="@style/input_title"
+            android:text="联系电话" />
+
+        <EditText
+            android:id="@+id/ev_phone"
+            style="@style/input_content"
+            android:hint="请输入联系电话" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/input_ll">
+
+        <TextView
+            style="@style/input_title"
+            android:text="起点时间" />
+
+        <TextView
+            android:id="@+id/tv_start_time"
+            style="@style/input_content"
+            android:hint="请选择起点时间" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/input_ll">
+
+        <TextView
+            style="@style/input_title"
+            android:text="乘坐人数" />
+
+        <EditText
+            android:id="@+id/ev_people"
+            style="@style/input_content"
+            android:hint="请填写乘坐人数"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_confirm"
+        style="@style/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发布拼车" />
+</LinearLayout>

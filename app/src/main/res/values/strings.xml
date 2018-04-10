@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Yunpc.Drive.Android</string>
+    <string name="message_permission_rationale">允许以下权限以便程序继续执行：\n\n%1$s</string>
+    <string name="message_permission_always_failed">我们需要以下权限，请在设置中为我们开启：\n\n%1$s</string>
+    <string name="album_view">选择图片</string>
+    <string name="image_view">单击选择</string>
+    <string name="add">确定</string>
+    <string name="selected">已选</string>
+    <string name="limit_exceeded">最多能选 %d 张</string>
+
+    <!--终点和起点城市-->
+    <string-array name="cityArr">
+        <item>郑州</item>
+        <item>鹿邑 </item>
+    </string-array>
+</resources>

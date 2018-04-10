@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="@dimen/margin_border"
+        android:paddingRight="@dimen/margin_border">
+
+        <com.lgy.drive.view.CircleImageView
+            android:id="@+id/iv_head"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_head"
+            android:layout_toRightOf="@+id/iv_head"
+            tools:text="姓名" />
+
+        <TextView
+            android:id="@+id/tv_drive_age"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/iv_head"
+            android:layout_toRightOf="@+id/iv_head"
+            tools:text="驾龄" />
+
+        <TextView
+            android:id="@+id/tv_order_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/iv_head"
+            android:layout_toRightOf="@+id/tv_name"
+            android:gravity="right"
+            tools:text="接的单数" />
+
+        <TextView
+            android:id="@+id/tv_remain_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/iv_head"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tv_drive_age"
+            android:gravity="right"
+            tools:text="剩余人数" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/margin_border"
+        android:paddingRight="@dimen/margin_border">
+
+        <TextView
+            android:id="@+id/tv_start_end_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="开始地点---结束地点" />
+
+        <TextView
+            android:id="@+id/tv_start_end_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_start_end_place"
+            android:gravity="right"
+            tools:text="开始时间结束时间" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_start_end_place"
+            android:layout_marginTop="10dp" />
+    </RelativeLayout>
+
+    <LinearLayout style="@style/input_ll">
+
+        <TextView
+            style="@style/input_title"
+            android:text="添加预约人数" />
+
+        <EditText
+            android:id="@+id/ev_account"
+            style="@style/input_content"
+            android:hint="请输入预约人数" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_appointment"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="立即预约"
+        android:textSize="20dp" />
+</LinearLayout>

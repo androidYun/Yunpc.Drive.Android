@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="3dp"
+    android:background="@color/red_btn_bg_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_order_content"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="@dimen/margin_border"
+        android:paddingRight="@dimen/margin_border">
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@color/sea_green"
+            android:text="拨打电话"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/btn_call"
+            android:background="@color/refuse_color"
+            android:text="取消"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_accept"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@color/default_color"
+            android:text="接受"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</LinearLayout>

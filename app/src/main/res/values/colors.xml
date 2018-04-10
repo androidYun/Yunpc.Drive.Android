@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="multiple_image_select_primaryDark">#212121</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="line_color">#DBDBDB</color>
+    <color name="gray">#999999</color>
+    <color name="hint_text_color">#999999</color>
+    <color name="editext_text_color">#e3e3e3</color>
+    <color name="confirm_color">#4687FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="default_background_color">#4687FF</color>
+    <color name="backgroundColor">#F4F4F4</color>
+    <color name="base_color">#333333</color>
+    <color name="default_text_color">#333333</color>
+    <color name="comopany_num">#9899A0</color>
+    <color name="today_add_compamy_num">#FE5139</color>
+    <color name="week_month_add_compamy_num">#4687FF</color>
+    <color name="select_color">#FE7438</color>
+    <color name="default_color">#FE7438</color>
+    <color name="circle_color">#FE533B</color>
+    <color name="policy_rule_color">#2CD286</color>
+    <color name="build_head_color">#F9F9F9</color>
+    <!--半透明顏色值-->
+    <color name="translucent">#4D000000</color>
+    <!--完全透明顏色值-->
+    <color name="transparency">#00000000</color>
+    <color name="album_color">#333333</color>
+    <color name="deep_gray">#666666</color>
+    <color name="sea_green">#2E8B57</color>
+    <color name="refuse_color">#696969</color>
+</resources>
